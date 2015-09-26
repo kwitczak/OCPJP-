@@ -1,0 +1,7 @@
+
+class OutPackageTest{
+	public static void main (String args[]){
+		PublicPerson pp = new PublicPerson();
+		
+	}
+}
