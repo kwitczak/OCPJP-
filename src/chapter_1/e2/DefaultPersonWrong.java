@@ -1,0 +1,2 @@
+class DefaultPerson{}
+class OtherPerson{}
