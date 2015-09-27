@@ -1,0 +1,6 @@
+package outer;
+class PersonOuter{
+	PersonOuter(){
+	System.out.println("Im outer guy");
+}
+}

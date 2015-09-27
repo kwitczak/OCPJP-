@@ -1,0 +1,7 @@
+package outer.inner;
+class Test {
+	public static void main(String args[]){
+	PersonInner pi = new PersonInner();
+PersonOuter op = new PersonOuter();
+}
+}
