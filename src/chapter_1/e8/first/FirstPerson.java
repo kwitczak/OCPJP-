@@ -1,0 +1,7 @@
+package first;
+public class FirstPerson{
+protected String name = "FirstName";
+public FirstPerson(){
+System.out.println("Im the first person, my name is " + name);
+}
+}
