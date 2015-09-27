@@ -1,0 +1,5 @@
+class Person {
+	abstract void doSomething();
+	abstract strictfp doSomethingElse();
+	abstract synchronized doEvenSomethingElse();
+}
