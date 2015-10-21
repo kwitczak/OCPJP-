@@ -13,4 +13,5 @@ byte f = 29;
 byte a1 = 3;
 byte a2 = 1;
 byte a3 = (byte)(a1 + a2);
+byte a4 = 100+20;
 }
