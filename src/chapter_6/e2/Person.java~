@@ -1,0 +1,16 @@
+class Class{
+	public static void main(String args[]){
+		switch("it's string"){
+	case "sumthing":;
+	default: System.out.println("Well well");
+	case "others": System.out.println("Huh");
+}
+
+	//if(true){
+	
+	//}else{
+
+	//}else if(false){}
+
+}
+}
