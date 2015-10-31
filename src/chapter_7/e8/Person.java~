@@ -1,0 +1,9 @@
+
+class Person{
+	public static void main(String args[]){
+		try {
+
+		//} catch(IOException e) {}
+		} catch(NullPointerException e) {}
+	}
+}
