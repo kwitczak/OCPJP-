@@ -1,0 +1,24 @@
+import java.util.*;
+import java.text.*;
+class Person{
+	public static void main(String args[]){
+		Locale pl = new Locale("pl");
+		Locale pl_en = new Locale("PL", "IT");
+		Locale it = new Locale("it");
+
+		DateFormat df_pl = DateFormat.getDateInstance(DateFormat.FULL, pl);
+		DateFormat df_pl2 = DateFormat.getDateInstance(DateFormat.FULL, pl_en);
+
+		Date d = new Date();
+		System.out.println(df_pl.format(d));
+		System.out.println(df_pl2.format(d));
+		// Italy
+		System.out.println(pl_en.getDisplayCountry());
+		// Polish
+		System.out.println(pl_en.getDisplayLanguage());
+		// Italia
+		System.out.println(pl_en.getDisplayCountry(it));
+		// polacco
+		System.out.println(pl_en.getDisplayLanguage(it));
+	}
+}
