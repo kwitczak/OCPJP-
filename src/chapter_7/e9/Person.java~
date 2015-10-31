@@ -1,0 +1,12 @@
+import java.io.*;
+class Person{
+	public static void main(String args[]){
+		throw new NullPointerException();
+		throw new Exception();
+		throw new IOException();
+	// Will it compile? If not, how many errors?
+		try{}catch(Exception e){}
+		try{}catch(NullPointerException e){}
+		try{}catch(IOException e){}
+	}
+}
